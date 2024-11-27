@@ -1,0 +1,30 @@
+.Button {
+    color: white;
+    background-color: #FF3E79;
+    border-radius: 16px;
+    border: none;
+    width: 119px;
+    height: 32px;
+    margin-top: 20px;
+}
+
+.table-main {
+    width: 1056px;
+    margin-bottom: 32px;
+
+}
+
+.table-head {
+    color: #1B1C21;
+
+}
+
+.table-body {
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.paragraph {
+    font-size: 14px;
+}

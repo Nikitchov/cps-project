@@ -1,0 +1,85 @@
+.sidebar {
+    background-color: white;
+    width: 276px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    color: #1B1C21;
+    flex-direction: column;
+    padding-left: 18px;
+}
+
+.burger-btn {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.burger-btn::before,
+.burger-btn::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    background-color: black;
+    height: 2px;
+}
+
+.burger-btn::before {
+    top: 10px;
+}
+
+.burger-btn::after {
+    bottom: 10px;
+}
+
+.nav-list {
+    padding-top: 33.8px;
+    padding: 20px;
+}
+
+.nav-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.nav-list li {
+    margin: 10px 0;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.nav-list a {
+    color: black;
+}
+
+.phonenumber {
+    font-size: 24px;
+    color: #1B1C21;
+    margin-top: 12.4px;
+    font-weight: bold;
+}
+
+.contact-details {
+    margin-top: 241px;
+    gap: 11.37px;
+    display: flex;
+}
+
+.languages {
+    display: flex;
+    gap: 10px;
+    color: #1B1C21;
+}
+
+.mail {
+    padding-top: 16.54px;
+}

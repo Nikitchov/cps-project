@@ -1,0 +1,59 @@
+.upper-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 42px;
+    white-space: nowrap;
+
+}
+
+.header {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.buttons-navbar {
+    color: #1B1C21;
+    display: flex;
+    gap: 32px;
+
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.request img {
+    display: inline-block;
+    margin-top: 8px;
+    width: 40px;
+}
+
+.repair {
+    width: 40px;
+}
+
+.request a {
+    color: #1B1C21;
+    margin-right: 8px;
+}
+
+.checkstatus a {
+    margin-right: 9px;
+    color: #1B1C21;
+}
+
+.checkstatus img {
+    display: inline-block;
+    margin-top: 8px;
+    width: 40px;
+}
+
+.checkstatus {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: 22px;
+}

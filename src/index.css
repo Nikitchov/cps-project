@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'TTLakes';
+    src: url('fonts/medium.ttf') format('truetype');
+}
+
+* {
+    font-family: 'TTLakes';
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    font-family: 'TTLakes';
+    line-height: 1.2;
+    text-decoration: none;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F8F8F8;
+    flex-direction: column;
+    background-color: red;
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    /* .sidebar {
+        width: 100%; */
+}
